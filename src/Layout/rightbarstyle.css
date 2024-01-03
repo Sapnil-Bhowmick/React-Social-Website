@@ -1,0 +1,305 @@
+.rightbar {
+    flex: 4
+}
+
+.rightbarwrapper {
+    padding: 20px 20px 0 0;
+
+}
+
+.birthdaycontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.birthdaycontainer_img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.birthdaytext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.right_text {
+    font-weight: 500;
+}
+
+.rightbar_add {
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.rightbartitle {
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.rightbarfriendlist {
+    padding: 0;
+    margin: 20px 0px;
+    list-style: none;
+}
+
+.rightbarfriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.righbarprofileimgcontainer {
+    margin-right: 10px;
+    position: relative;
+}
+
+.righbarprofileimg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.rightbaronline {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    border: 2px solid white;
+    top: -2px;
+    right: 0px;
+}
+
+.rightbarusername {
+    font-weight: 500;
+}
+
+
+.rightbartitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.rightbarfollowingimage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2px;
+}
+
+.rightbarinfo {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    /* width: 45%; */
+}
+
+
+
+.rightbarinfoitem {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.rightbinfokey {
+    font-weight: 500;
+    margin-right: 15px;
+    color: #888;
+}
+
+.rightbarinfovalue {
+    font-weight: 500;
+    color: #cab5b5;
+    margin-left: 8px;
+}
+
+
+
+.rightbarfollowing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.rightbarfollowingname {
+    width: 2px;
+    height: 31px;
+    font-size: 12px;
+}
+
+.rightbarinfovalue {
+
+    font-weight: 500;
+    color: #cab5b5;
+
+}
+
+.rightbar_user {
+    font-size: 18px;
+}
+
+.rightbarfollowings {
+    /* background-color: #f1f9ff; */
+    padding: 19px 26px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbar_icon {
+    width: 18px;
+    height: 18px;
+}
+
+.rightbarbio {
+    background-color: #0070ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 29px;
+    cursor: pointer;
+}
+
+.rightbaredit {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.rightbaruserinfoheading {
+    display: flex;
+    align-items: center;
+}
+
+.editicondiv {
+    background-color: aliceblue;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+.profilerightbar_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profilerightbar_right_img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2px;
+}
+
+
+.profilerightbar_right_wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    margin-bottom: 41px;
+}
+
+.profilerightbar_right_div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+    position: relative;
+}
+
+.profilerightbar_right {
+    background-color: #fff6e1;
+  margin-left: 103px;
+  border-radius: 9%;
+}
+
+
+.profilerightbar_right_name {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilerightbar_top_right_active {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.profilerightbar_right_btn {
+    /* background-color: #e3f0f0; */
+    font-weight: 500;
+    border-radius: 10%;
+    text-align: center;
+    background-color: bisque;
+    padding: 3px 19px;
+    font-size: 12px;
+}
+
+.user_profilerightbar_right_btn {
+    font-weight: 500;
+    border-radius: 10%;
+    text-align: center;
+    padding: 3px 19px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    background-color: #3357ae;
+    color: #fff;
+}
+
+.see_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userfriends_see_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilerightbar_right_btn_friends {
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10%;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 19px;
+}
+
+.profilerightbaronline {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fbb254;
+    position: absolute;
+    border: 2px solid white;
+    top: 21px;
+    right: 0px;
+}
+
+.rightbar_friends_div {
+    background-color: #f1f9ff;
+}

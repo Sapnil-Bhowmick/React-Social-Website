@@ -1,0 +1,137 @@
+.friend_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #dfdfdf;
+}
+
+.mutual_friend_img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #dfdfdf;
+}
+
+.friends_wrapper {
+    background-color: #d9dbdb;
+    width: 170px;
+    padding: 13px;
+    border-radius: 16px;
+    margin-right: 27px;
+    margin-bottom: 30px;
+}
+
+.mutual_div {
+    display: flex;
+    align-items: center;
+}
+
+.prf_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    margin: 13px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.friends_no {
+    margin-left: 8px;
+    font-size: 11px;
+}
+
+.confirm {
+    background-color: #1e70f0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    width: 72%;
+    margin: 2px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.delete {
+    background-color: #939ca2;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    width: 50%;
+    margin: 2px 0;
+    color: #fff;
+    font-weight: bold;
+
+    font-size: 13px;
+}
+
+.btn_div {
+    margin: 18px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.friendscontainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.friend_requests {
+    background-color: #1e70f0;
+    text-align: center;
+    padding: 12px;
+    width: 21%;
+    margin: 2px 0;
+    color: #fff;
+    font-weight: bold;
+    border: 3px solid #d2cbcb;
+}
+
+.seeall {
+    background-color: #1e70f0;
+    text-align: center;
+    padding: 10px 20px;
+    /* width: 21%; */
+    margin: 2px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    /* border: 3px solid #d2cbcb; */
+    border-radius: 25px;
+
+}
+
+.request {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+
+    margin: 21px;
+}
+
+.border {
+    background-color: beige;
+    width: 100%;
+    height: 2px;
+}
+
+.add_friend{
+    background-color: #1e70f0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    width: 72%;
+    margin: 2px 0;
+    color: #d0dcf9;
+    font-weight: bold;
+    font-size: 14px;
+}

@@ -1,0 +1,140 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 41px;
+    overflow: hidden;
+    margin: 20px;
+    width: 295px;
+}
+
+.card_div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card_wrapper {
+    padding: 20px;
+    /* background-color: antiquewhite; */
+}
+
+.card-top-image {
+    width: 100%;
+    height: 119px;
+    object-fit: cover;
+    border-radius: 80px 2px;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 30px;
+    height: 30;
+    margin-right: 16px;
+}
+
+.prfimg_div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.prfimg_div_text {
+    margin-left: -8px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #8e9195;
+}
+
+.content-text {
+    margin-bottom: -4px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 21px;
+    /* padding: 0 16px 16px; */
+}
+
+.date-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.post-date {
+    margin: 0;
+    font-size: 10px;
+    color: #0028ff;
+    font-weight: 500;
+}
+
+.bottom_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.share_img {
+    width: 15px;
+    height: 15px;
+}
+
+.share_div {
+    background-color: #e5f1f7;
+    padding: 1px 8px;
+    border-radius: 100px;
+    border: 2px solid #1564ca;
+    display: flex;
+    align-items: center;
+}
+
+.share_text {
+    margin-left: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #237cca;
+}
+
+.name_email {
+    display: flex;
+    flex-direction: column;
+}
+
+.eye {
+    height: 17px;
+    width: 17px;
+    margin-left: -18px;
+}
+
+.comment_div {
+    display: flex;
+    align-items: center;
+}
+
+.comment {
+    width: 14px;
+    height: 14px;
+}
+
+.comment_text {
+    margin-left: 2px;
+}
+
+.time_div {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}

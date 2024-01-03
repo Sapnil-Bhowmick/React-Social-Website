@@ -21,6 +21,7 @@ const myposts = () => {
                             src="https://placekitten.com/400/200"
                             alt="Card Top"
                         />
+
                         <div className="card-content">
                             <div className='prfimg_div'>
                                 <img
@@ -40,7 +41,6 @@ const myposts = () => {
                             <div>
 
                             </div>
-
 
 
                             <p className="content-text">

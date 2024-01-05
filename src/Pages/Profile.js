@@ -11,7 +11,12 @@ import profile_user from '../Assets/Images/profile_user.jpg'
 import camera from '../Assets/Images/camera.png'
 import whitecam from '../Assets/Images/whitecam.png'
 
+import { useNavigate } from 'react-router-dom';
+
 const Profile = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div >
             <Topbar />
@@ -30,10 +35,10 @@ const Profile = () => {
                             </div>
                             <div className='profile_rightbar'>
                                 <div className='profile_rightbar_wrapper'>
-                                    <div className='btn_profile'> Posts </div>
+                                    <div className='btn_profile' onClick={()=>navigate("/myposts")}> Posts </div>
                                     <div className='btn_profile'> About </div>
-                                    <div className='btn_profile'> Friends </div>
-                                    <div className='btn_profile'> Photos </div>
+                                    <div className='btn_profile' onClick={()=>navigate("/friends")}> Friends </div>
+                                    <div className='btn_profile' onClick={()=>navigate("/photos")}> Photos </div>
                                     <div className='btn_profile'> Videos </div>
                                     <div className='btn_profile'> Check-ins </div>
                                 </div>

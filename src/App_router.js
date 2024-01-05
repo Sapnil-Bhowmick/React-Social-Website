@@ -10,6 +10,7 @@ import Home from './Pages/Home';
 import Profile from './Pages/Profile';
 import  Friends from './Pages/Friends';
 import myposts from './Layout/myposts';
+import Photos from './Layout/Photos';
 
 
 
@@ -26,6 +27,7 @@ const Navigation=()=> {
             <Route exact path="/myprofile" Component={Profile}/>
             <Route exact path="/friends" Component={Friends}/>
             <Route exact path="/myposts" Component={myposts}/>
+            <Route exact path="/photos" Component={Photos}/>
         </Routes>
     </Router>
   );

@@ -1,0 +1,81 @@
+.music_sidebar {
+    background-color: #141328;
+    flex: 0.7;
+    height: 48;
+    /* width:50px */
+}
+
+.heading_sidebar {
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 41px;
+    color: #2596be;
+}
+
+.Musiclist_sidebar {
+    list-style: none;
+    margin-bottom: 45px;
+}
+
+h3:hover{
+    color: #2596be;
+    font-weight: bold;
+}
+
+/* .Musiclist_sidebar>li>span:hover{
+
+} */
+
+.Musiclistitem_sidebar {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Musicsidebaricon_sidebar {
+    margin-right: 10px;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+
+.Musicsidebaricon_sidebar_add {
+    height: 20px;
+    width: 20x;
+    padding-right: 13px;
+    cursor: pointer;
+}
+
+.Musicsidebaricon_sidebar_disc {
+    height: 15px;
+    margin-right: 8px;
+}
+
+.Musiclistitem_sidebartext {
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.Musiclistitem_sidebar_playlist {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Musiclistitem_sidebartext_playlist {
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.myplaylists {
+    margin-left: 10px;
+}

@@ -1,0 +1,115 @@
+.music_playlist {
+    background-color: #353766;
+    ;
+    flex: 4
+}
+
+.logo_img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #fff;
+}
+
+.logodiv {
+    position: absolute;
+    top: 9rem;
+    right: 6rem;
+    background-color: #1b1b25;
+    width: 124px;
+    display: flex;
+    align-items: center;
+    border-radius: 200px;
+    padding: 4px;
+}
+
+.greendown_div {
+    padding-left: 31px;
+    padding-top: 5px;
+}
+
+
+.greendown {
+    width: 15px;
+    height: 15px;
+}
+
+.logoimg_div {
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.logo_text {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 7px;
+}
+
+.playlistsplaylists {
+    display: flex;
+    flex-direction: row;
+}
+
+.mood {
+    margin-top: 53px;
+}
+
+.moodimage {
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.moodimage_recent {
+    height: 105px;
+    width: 105px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.moodwrapper_singer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 24px;
+}
+
+
+
+.mood_content {
+    margin-bottom: 53px;
+}
+
+.moodwrapper {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding: 1px 11px;
+}
+
+.moodtext {
+    font-size: 10px;
+    font-weight: 500;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.text_1 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #ccbd9d;
+}
+
+.text_2 {
+    font-size: 9px;
+    font-weight: 500;
+    color: #605864;
+}
+
+.text_div {
+    margin-bottom: 23px;
+    padding-left: 28px;
+}

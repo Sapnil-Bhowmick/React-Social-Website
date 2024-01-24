@@ -1,0 +1,81 @@
+.topplaylist {
+    background-color:#262653;
+    flex: 11
+}
+
+.song_card {
+    margin-left: 12px;
+    background-color: #2b221b;
+    /* position: absolute; */
+}
+
+
+
+.greenplay_div {
+    position: absolute;
+    top: 38rem;
+    left: 69rem;
+}
+
+.greenplay {
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* .greenplay :hover {
+    opacity: 1;
+} */
+
+
+.songcard_div {
+    display: flex;
+    padding: 0px 9px;
+}
+
+.song_img {
+    height: 120px;
+    width: 169px;
+    /* border-radius: 8px; */
+    object-fit: cover;
+}
+
+.songname_text {
+    /* text-align: center; */
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    /* text-align: center; */
+}
+
+.time_text {
+    font-size: 11px;
+    font-weight: bold;
+    color: antiquewhite;
+    margin-right: 5px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.songcard_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 3px; */
+    padding: 6px 6px;
+}
+
+.topplaylist_text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ccbd9d;
+    padding-left: 24px;
+    margin-bottom: 18px;
+    padding-top:10px;
+}

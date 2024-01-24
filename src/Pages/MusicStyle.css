@@ -1,0 +1,40 @@
+.music {
+    padding: 40px;
+    background-color: #333452;
+}
+
+.music_text {
+    text-align: center;
+}
+
+.music_text_1 {
+    font-size: 25px;
+    color: #ccbd9d;
+    letter-spacing: 7px;
+}
+
+.music_text_2 {
+    font-size: 12px;
+    color: #d2cec3;
+    margin-top: 8px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+
+.musicwrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.Music_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.playlists {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+}
